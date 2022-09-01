@@ -1,6 +1,7 @@
 import { DataApiService } from './../../services/http/data-api.service';
 import { Component, OnInit, HostListener } from '@angular/core';
-
+import { DarkModeService } from 'angular-dark-mode';
+import { Observable } from 'rxjs';
 @Component({
   selector: 'app-home',
   templateUrl: './home.component.html',
@@ -12,11 +13,15 @@ export class HomeComponent implements OnInit {
   featuredProjects;
   workExperience;
   profile;
-
+  languages = {
+    FR:true,
+    EN:false
+  };
   showMobileImages = false;
-
+  checked: boolean;
   constructor(
-    public dataApi: DataApiService
+    public dataApi: DataApiService,
+    private darkModeService: DarkModeService
   ) { }
 
   @HostListener('window:resize', ['$event'])
@@ -24,7 +29,11 @@ export class HomeComponent implements OnInit {
     console.log('WINDOW_RESIZE_EVENT', event);
     this.checkWindowSize();
   }
-
+  changeLanguage(event){
+    this.checked = event;
+    this.languages.FR = !this.languages.FR
+    this.languages.EN = !this.languages.EN
+  }
   private checkWindowSize(): void {
     window.innerWidth <= 768
       ? this.showMobileImages = true

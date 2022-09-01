@@ -8,12 +8,17 @@ import { AppComponent } from './app.component';
 import { HttpClientModule } from '@angular/common/http';
 import { LinkifyPipe } from './pipes/linkify.pipe';
 
+import {ToggleButtonComponent} from './pages/toggle-button/toggle-button.component'
+import { HomeComponent } from './pages/home/home.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     routingComponents,
     LinkifyPipe,
+    HomeComponent,
+    ToggleButtonComponent
   ],
   imports: [
     BrowserModule,
