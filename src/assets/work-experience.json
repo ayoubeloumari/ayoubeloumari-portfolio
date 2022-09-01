@@ -1,24 +1,20 @@
 {
   "work": [
     {
-      "date": "September 2018 - Present",
-      "title": "Software Developer at Lava Lamp Lab",
+      "date": "Juin 2021 - Présent",
+      "title": "Software Engineer Capgemini",
       "description": "Conduct Work in developing cross-platform mobile applications (iOS and Android) as well as Backend applications. \n\nWe mainly develop using Agile over two-week sprints.",
       "stack": [
-        "Ionic",
         "Angular",
-        "Node.js",
-        "npm",
+        "Java",
+        "SpringBoot",
+        "Oracle SQL",
         "Git",
-        "Bitbucket",
         "GitHub",
         "Agile",
-        "Laravel",
-        "Express.js",
-        "Azure",
-        "Cosmos DB",
         "JavaScript",
-        "TypeScript"
+        "TypeScript",
+        "Bootstap"
       ]
     },
     {

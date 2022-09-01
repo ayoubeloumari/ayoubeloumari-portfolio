@@ -1,30 +1,30 @@
 {
-  "email": "rnldhv91@gmail.com",
-  "location": "Durbanville, Cape Town",
-  "name": "Ronald Hove",
+  "email": "ayoubeloumari1@gmail.com",
+  "location": "Salé, Maroc",
+  "name": "EL OUMARI Ayoub",
   "phone": "",
   "avatar": "assets/media/images/pro_offerzen.jpg",
   "education": [
     {
-      "title": "Bachelor of Science (BSc) in Computer Science and Information Systems",
-      "meta": "University of the Western Cape,  Jan 2014 – Nov 2018"
+      "title": "Master spécialisé en Ingénierie de données et developement logiciel",
+      "meta": "Faculté de science de Rabat,  2018 – 2020"
     }
   ],
-  "about": "I consider myself a value adder. I resolute to being a key asset of objective teams while seeking value from colleagues to add to my strengths. I love computer science and information technology.\n\nI have acquired experience building industry standard, production ready applications from working as a full time software developer and being a full time technology hobbyist.",
+  "about": "Je me considère comme une valeur ajoutée. Je suis résolu à être un atout clé d'équipes objectives tout en recherchant la valeur de mes collègues pour ajouter à mes forces. J'aime l'informatique et les technologies de l'information. J'ai acquis de l'expérience dans la création d'applications standard de l'industrie prêtes pour la production en tant que développeur de logiciels à temps plein et en tant qu'amateur de technologie à plein temps.",
   "socials": [
     {
-      "name": "rnldhv91@gmail.com",
-      "link": "mailto:rnldhv91@gmail.com",
+      "name": "ayoubeloumari1@gmail.com",
+      "link": "mailto:ayoubeloumari1@gmail.com",
       "icon": "fa fa-envelope"
     },
     {
       "name": "Github",
-      "link": "https://github.com/ronald-hove",
+      "link": "https://github.com/ayoubeloumari",
       "icon": "fab fa-github"
     },
     {
       "name": "LinkedIn",
-      "link": "https://www.linkedin.com/in/ronald-hove/",
+      "link": "https://www.linkedin.com/in/ayoub-el-oumari/",
       "icon": "fab fa-linkedin"
     }
   ]
